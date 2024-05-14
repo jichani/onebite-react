@@ -44,7 +44,7 @@ function App() {
     <div className="App">
       <Header />
       <Editor OnCreate={OnCreate} />
-      <List />
+      <List todos={todos} />
     </div>
   );
 }
